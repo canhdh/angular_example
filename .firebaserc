@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "shopping-mall-738cf": {
+      "hosting": {
+        "shopping-mall": [
+          "shopping-mall-738cf"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "shopping-mall-738cf"
+  }
+}
