@@ -12,8 +12,8 @@ import { CartService } from '../cart.service';
 export class ProductDetailsComponent implements OnInit {
   product;
 
-  constructor( 
-    private route:ActivatedRoute, 
+  constructor(
+    private route:ActivatedRoute,
     private cartService:CartService,
   ) {}
 
@@ -25,7 +25,7 @@ export class ProductDetailsComponent implements OnInit {
 
   addToCart(product) {
     this.cartService.addToCart(product);
-    window.alert('Your product has been add to the cart!');
+    window.alert('Sản phẩm đã được thêm vào Giỏ hàng!');
   }
 
 }

@@ -1,18 +1,21 @@
 export const products = [
   {
-    name: 'Phone XL',
+    name: 'iPhone 11 Pro Max',
     price: 799,
-    description: 'A large phone with one of the best screens'
+    description: 'A large phone with one of the best screens',
+    image: '../assets/iphone-11-pro-max-green-400x400.jpg'
   },
   {
-    name: 'Phone Mini',
+    name: 'iPhone 5s',
     price: 899,
-    description: 'A great phone with one of the best cameras'
+    description: 'A great phone with one of the best cameras',
+    image: '../assets/apple-iphone-5s-ofic1.jpg'
   },
   {
-    name: 'Phone Standard',
+    name: 'Nokia 1100',
     price: 299,
-    description: ''
+    description: '',
+    image: '../assets/1100.jpg'
   }
 ];
 
